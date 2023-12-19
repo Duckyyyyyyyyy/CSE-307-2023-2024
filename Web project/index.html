@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,500&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Gearvn</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fa-solid fa-computer"></i> Gearvn</a>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Product</a>
+                    <ul class="submenu">
+                        <li><a href="#">Mouse</a>
+                            <ul class="submenu2">
+                                <li><a href="#">Logitech</a></li>
+                                <li><a href="#">Razer</a></li>
+                                <li><a href="#">Steelseries</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Keyboard</a>
+                            <ul class="submenu2">
+                                <li><a href="#">MSI</a></li>
+                                <li><a href="#">Ducky</a></li>
+                                <li><a href="#">Leopold</a></li>
+                            </ul>
+
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+
+        </div>
+    </header>
+
+    <div class="search-form">
+        <div id="close-search" class="fas fa-times"></div>
+        <form action="">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </div>
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i
+            class="fas fa-chevron-up"></i></a>
+    <section class="home" id="home">
+
+        <div class="wrapper">
+
+            <div class="box" style="background: url(image/banner.jpg) no-repeat;">
+                <div class="content">
+                    <span>never stop</span>
+                    <h3>buying</h3>
+                    <p>Gearvn.com, the best PC tech website.</p>
+                    <a href="#category" class="btn">get started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/slider 1.png" class="d-block w-100" alt="slider 1">
+            </div>
+            <div class="carousel-item">
+                <img src="image/slider 2.png" class="d-block w-100" alt="slider 2">
+            </div>
+            <div class="carousel-item">
+                <img src="image/slider 3.png" class="d-block w-100" alt="slider 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <section class="category" id="category">
+
+        <h1 class="heading">Best Deal!</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="image/item1.png" alt="ProjectZeroWhite">
+                <h3>PC GVN x MSI PROJECT ZERO WHITE</h3>
+                <p>26.990.000₫.</p>
+                <a href="https://gearvn.com/products/pc-gvn-x-msi-project-zero-white/" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/item2.png" alt="Inteli5-13400F">
+                <h3>PC GVN Intel i5-13400F/ VGA RTX 4060 Ti</h3>
+                <p>30.990.000₫.</p>
+                <a href="https://gearvn.com/products/pc-gvn-intel-i5-4060ti" class="btn">read more</a>
+            </div>
+
+            <div class="box">
+                <img src="image/item3.png" alt="LC49G95">
+                <h3>Samsung LC49G95 49" VA 2K 240Hz</h3>
+                <p>24.990.000₫.</p>
+                <a href="https://gearvn.com/products/man-hinh-cong-samsung-qled-lc49g95-49-va-2k-240hz-gsync"
+                    class="btn">read more</a>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="packages" id="packages">
+
+        <h1 class="heading">popular products</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/item4.png" alt="Leopold">
+                </div>
+                <div class="content">
+                    <h3>Leopold FC750RBT Bluetooth</h3>
+                    <p>Chiếc bàn phím cơ Leopold FC750RBT Bluetooth Coral Blue Limited Edition hứa hẹn mang đến nhiều
+                        trải nghiệm gõ phím tuyệt vời cho người dùng. Không chỉ sở hữu vẻ đẹp thu hút mà còn mang lại
+                        cảm giác gõ phím thú vị. Khả năng đáp ứng nhanh và chính xác giúp mọi thao tác công việc đảm bảo
+                        được hiệu suất. </p>
+                    <div class="price">3.200.000₫</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/item5.png" alt="Logitech">
+                </div>
+                <div class="content">
+                    <h3>Logitech G502 X Plus LightSpeed White</h3>
+                    <p>Chuột Logitech G502 X PLUS White là sản phẩm mới nhất của series G502 đình đám. Được thiết kế lại
+                        và cải tiến với công nghệ chơi game hiện đại, bao gồm công tắc Lightforce lai quang học - cơ học
+                        đầu tiên, Lightspeed không dây, LIGHT SYNC RGB và cảm biến quang học Hero 25K, Logitech G502 X
+                        PLUS chắc chắn là một trong những gaming gear đáng mua nhất cho game thủ thời gian sắp tới.</p>
+                    <div class="price">3.190.000₫</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/item6.png" alt="HyperX">
+                </div>
+                <div class="content">
+                    <h3>HP HyperX Cloud III Wireless Red</h3>
+                    <p>Tai nghe chơi game HP HyperX Cloud III Wireless Red là sự kết hợp hoàn hảo giữa phong cách và
+                        hiệu suất. Với thiết kế không dây tiên tiến, màu đỏ nổi bật, và chất âm xuất sắc, sản phẩm này
+                        mang lại sự thoải mái và tự do cho người chơi. HyperX Cloud III là người bạn đắc lực cho những
+                        trải nghiệm chơi game chất lượng, đảm bảo mọi chi tiết âm thanh được truyền đạt rõ ràng, là lựa
+                        chọn tuyệt vời cho game thủ.</p>
+                    <div class="price">3.890.000₫</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/item7.png" alt="Acer">
+                </div>
+                <div class="content">
+                    <h3>Acer Predator Helios 300 PH315 55 76KG</h3>
+                    <p>Laptop gaming Acer Predator Helios 300 PH315-55-76KG là một máy tính xách tay mạnh mẽ với hiệu
+                        suất ấn tượng và trải nghiệm hình ảnh xuất sắc. Với bộ xử lý Intel Core i7 và đồ họa NVIDIA
+                        GeForce RTX, máy này đảm bảo chơi game mượt mà. Màn hình 15.6 inch với tốc độ làm mới cao mang
+                        lại màu sắc sống động. Acer Predator Helios 300 còn có công nghệ làm mát tiên tiến, là sự lựa
+                        chọn xuất sắc cho game thủ đang tìm kiếm laptop gaming mạnh mẽ và đẹp mắt.</p>
+                    <div class="price">30.990.000₫</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/item8.png" alt="ASUS">
+                </div>
+                <div class="content">
+                    <h3>PC GVN x ASUS EVANGELION 2</h3>
+                    <p>Máy tính GVN x ASUS EVANGELION 2 với Intel i9-14900K và VGA RTX 4090, "Powered by ASUS," là một
+                        tác phẩm đỉnh cao dành cho game thủ và fan Evangelion. Thiết kế mạnh mẽ này mang lại trải nghiệm
+                        chơi game và xử lý ấn tượng nhờ vào sức mạnh của bộ xử lý i9 và đồ họa RTX 4090. Được đánh giá
+                        cao bởi ASUS, đây là sự lựa chọn lý tưởng cho những người đam mê công nghệ và anime Evangelion.
+                    </p>
+                    <div class="price">130.000.000₫</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="image/item9.png" alt="Corsair">
+                </div>
+                <div class="content">
+                    <h3>Corsair T3 RUSH Gray/Charcoal</h3>
+                    <p>Corsair là cái tên lão làng trong ngành thiết bị tai nghe gaming, chuột và nổi bật trong số đó là
+                        dòng sản phẩm ghế gaming. T3 Rush Grey/Charcoal là model ghế gaming mới nhất của hãng cho năm
+                        nay. Với nhiều nâng cấp và đổi mới về cả chất liệu lẫn thiết kế, T3 RUSH Grey/Charcoal thật sự
+                        đã mang đến một làn gió mới cho fan hâm mộ lâu năm của Corsair. </p>
+                    <div class="price">6.490.000₫</div>
+                    <a href="#contact" class="btn">explore now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="contact" id="contact">
+
+        <div class="wrapper1">
+            <div class="title1">
+                <h1>Contact us</h1>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="input-fields">
+
+                        <input type="text" class="input" placeholder="Name" name="name">
+                        <input type="email" class="input" placeholder="Email Address" name="email">
+                        <input type="phone" class="input" placeholder="Phone" name="phone">
+                        <input type="text" class="input" placeholder="Subject" name="subject">
+                    </div>
+                    <div class="msg">
+                        <textarea placeholder="Message" name="message"></textarea> <br>
+                        <div class="btn1"><button type="submit">Send <i class="uil uil-message"></i></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </section>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home">home</a>
+                <a href="#packages">packages</a>
+                <a href="#">Map</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#contact">ask questions</a>
+                <a href="#">terms of use</a>
+                <a href="#">privacy policy</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +84 334517651 </a>
+                <a href="#"> <i class="fas fa-envelope"></i>
+                    viet.tran.cit20@eiu.edu.com </a>
+                <a href="#"> <i class="fas fa-map"></i> Vietnam </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+                <a href="#"> <i class="fab fa-github"></i> github </a>
+            </div>
+        </div>
+    </section>
+    <script src="style.js"></script>
+</body>
+
+</html>
